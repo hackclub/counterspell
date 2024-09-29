@@ -11,8 +11,7 @@ import L from 'leaflet'
 import events from '../events.json'
 
 const mapIcon = new L.Icon({
-  iconUrl: 'https://assets.hackclub.com/icon-rounded.png',
-  iconRetinaUrl: 'https://assets.hackclub.com/icon-rounded.png',
+  iconUrl: `${process.env.PUBLIC_URL}/favicon.ico`,
   iconAnchor: null,
   popupAnchor: null,
   shadowUrl: null,
@@ -48,7 +47,7 @@ export default function Map() {
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
         />
         {events.map((event, idx) => (
           <Marker
