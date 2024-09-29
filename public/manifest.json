@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Counterspell",
+  "name": "Hack Club's fall hackathon, open to all high schoolers.",
   "icons": [
     {
       "src": "favicon.ico",
