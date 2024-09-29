@@ -1,0 +1,272 @@
+[
+    {
+        "name": "Melbourne, VIC, Australia",
+        "slack_id": "C07NVUEPEK1",
+        "latitude": -37.8136276,
+        "longitude": 144.9630576
+    },
+    {
+        "name": "Perth, WA, Australia",
+        "slack_id": "C07NXLMBV3R",
+        "latitude": -31.9513993,
+        "longitude": 115.8616783
+    },
+    {
+        "name": "Sydney, NSW, Australia",
+        "slack_id": "C07NUTF3EVB",
+        "latitude": -33.8688197,
+        "longitude": 151.2092955
+    },
+    {
+        "name": "Bengaluru, India",
+        "slack_id": "C07P487BR8E",
+        "latitude": 12.9715987,
+        "longitude": 77.5945627
+    },
+    {
+        "name": "Chandigarh, Chandigarh, India",
+        "slack_id": "C07P9DVEX4H",
+        "latitude": 30.7333148,
+        "longitude": 76.7794179
+    },
+    {
+        "name": "Chennai, India",
+        "slack_id": "C07Q29DRURW",
+        "latitude": 13.0843007,
+        "longitude": 80.2704622
+    },
+    {
+        "name": "Delhi, India",
+        "slack_id": "C07PD80FFMG",
+        "latitude": 28.7040592,
+        "longitude": 77.10249019999999
+    },
+    {
+        "name": "Gurugram, India",
+        "slack_id": "C07PD9M57PD",
+        "latitude": 28.4594965,
+        "longitude": 77.0266383
+    },
+    {
+        "name": "Kanpur, India",
+        "slack_id": "C07PGU901C2",
+        "latitude": 26.449923,
+        "longitude": 80.3318736
+    },
+    {
+        "name": "Mumbai, India",
+        "slack_id": "C07PANTS150",
+        "latitude": 19.0759837,
+        "longitude": 72.8776559
+    },
+    {
+        "name": "Pune, India",
+        "slack_id": "C07PH9FUT7D",
+        "latitude": 18.5204303,
+        "longitude": 73.8567437
+    },
+    {
+        "name": "Lahore, Pakistan",
+        "slack_id": "C07PG6SJML4",
+        "latitude": 31.5203696,
+        "longitude": 74.35874729999999
+    },
+    {
+        "name": "Phuket, Thailand",
+        "slack_id": "C07PSJDNJ3T",
+        "latitude": 7.8804479,
+        "longitude": 98.3922504
+    },
+    {
+        "name": "Seoul, South Korea",
+        "slack_id": "C07PNTWA7TK",
+        "latitude": 37.550263,
+        "longitude": 126.9970831
+    },
+    {
+        "name": "Singapore, Singapore",
+        "slack_id": "C07NY1DAAQJ",
+        "latitude": 1.352083,
+        "longitude": 103.819836
+    },
+    {
+        "name": "Taipei, Taiwan",
+        "slack_id": "C07P310CSTZ",
+        "latitude": 25.0329694,
+        "longitude": 121.5654177
+    },
+    {
+        "name": "Calgary, AB, Canada",
+        "slack_id": "C07PB9NT135",
+        "latitude": 51.04473309999999,
+        "longitude": -114.0718831
+    },
+    {
+        "name": "Ottawa, ON, Canada",
+        "slack_id": "C07P6S555AR",
+        "latitude": 45.4200572,
+        "longitude": -75.7003397
+    },
+    {
+        "name": "Toronto, ON, Canada",
+        "slack_id": "C07NWS084PL",
+        "latitude": 43.653226,
+        "longitude": -79.3831843
+    },
+    {
+        "name": "Kigali, Rwanda",
+        "slack_id": "C07PT6Y0E4R",
+        "latitude": -1.9440727,
+        "longitude": 30.0618851
+    },
+    {
+        "name": "Nairobi, Kenya",
+        "slack_id": "C07NWHUHD63",
+        "latitude": -1.2920659,
+        "longitude": 36.8219462
+    },
+    {
+        "name": "Abu Dhabi, UAE",
+        "slack_id": "C07NHV8KVMM",
+        "latitude": 24.453884,
+        "longitude": 54.3773438
+    },
+    {
+        "name": "Dubai, UAE",
+        "slack_id": "C06EU4H2V8T",
+        "latitude": 25.2048493,
+        "longitude": 55.2707828
+    },
+    {
+        "name": "Cambridge, CB, UK",
+        "slack_id": "C07PY49Q4U8",
+        "latitude": 52.1950788,
+        "longitude": 0.1312729
+    },
+    {
+        "name": "Leicester, UK",
+        "slack_id": "C07P7LRH8QH",
+        "latitude": 52.6368778,
+        "longitude": -1.1397592
+    },
+    {
+        "name": "London, LDN, UK",
+        "slack_id": "C07PEPXMS3T",
+        "latitude": 51.529763,
+        "longitude": -0.200346
+    },
+    {
+        "name": "Irvine, CA, USA",
+        "slack_id": "C07NV191YKV",
+        "latitude": 33.6845673,
+        "longitude": -117.8265049
+    },
+    {
+        "name": "San Diego, CA, USA",
+        "slack_id": "C07Q4SEKYJU",
+        "latitude": 32.715738,
+        "longitude": -117.1610838
+    },
+    {
+        "name": "San Francisco, CA, USA",
+        "slack_id": "C07NV271U82",
+        "latitude": 37.7749295,
+        "longitude": -122.4194155
+    },
+    {
+        "name": "South Bay (Sunnyvale, Cupertino, San Jose, etc), CA, USA",
+        "slack_id": "C07NZ681TDM",
+        "latitude": 37.3229978,
+        "longitude": -122.0321823
+    },
+    {
+        "name": "Thousand Oaks, CA, USA",
+        "slack_id": "C07PJHHEC0L",
+        "latitude": 34.1761133,
+        "longitude": -118.8487793
+    },
+    {
+        "name": "Washington, DC, USA",
+        "slack_id": "C07PWAFDVS5",
+        "latitude": 38.9071923,
+        "longitude": -77.0368707
+    },
+    {
+        "name": "Saint Augustine, FL, USA",
+        "slack_id": "C07PJL9EEN4",
+        "latitude": 29.8921835,
+        "longitude": -81.3139313
+    },
+    {
+        "name": "Tampa, FL, USA",
+        "slack_id": "C07KR91PZ89",
+        "latitude": 27.9516896,
+        "longitude": -82.45875269999999
+    },
+    {
+        "name": "Atlanta, GA, USA",
+        "slack_id": "C07PH5WT396",
+        "latitude": 33.7501275,
+        "longitude": -84.3885209
+    },
+    {
+        "name": "Boston, MA, USA",
+        "slack_id": "C07NXF78XUL",
+        "latitude": 42.3600825,
+        "longitude": -71.0588801
+    },
+    {
+        "name": "New York City, NY, USA",
+        "slack_id": "C07PHR6EAL8",
+        "latitude": 40.7127753,
+        "longitude": -74.0059728
+    },
+    {
+        "name": "Columbus, OH, USA",
+        "slack_id": "C07P8TS7AJV",
+        "latitude": 39.9611755,
+        "longitude": -82.99879419999999
+    },
+    {
+        "name": "Austin, TX, USA",
+        "slack_id": "C07NVDJGJMR",
+        "latitude": 30.267153,
+        "longitude": -97.7430608
+    },
+    {
+        "name": "Dallas, TX, USA",
+        "slack_id": "C07Q4RD2EGG",
+        "latitude": 32.7766642,
+        "longitude": -96.79698789999999
+    },
+    {
+        "name": "Houston, TX, USA",
+        "slack_id": "C07NW4SHRD0",
+        "latitude": 29.7600771,
+        "longitude": -95.37011079999999
+    },
+    {
+        "name": "Oshkosh, WI, USA",
+        "slack_id": "C07P3V5QWBE",
+        "latitude": 44.0247062,
+        "longitude": -88.5426136
+    },
+    {
+        "name": "Auckland, New Zealand",
+        "slack_id": "C07PP762HRP",
+        "latitude": -36.85088270000001,
+        "longitude": 174.7644881
+    },
+    {
+        "name": "Bydgoszcz, Poland",
+        "slack_id": "C07PEEV92QM",
+        "latitude": 53.12348040000001,
+        "longitude": 18.0084378
+    },
+    {
+        "name": "S\u00e3o Paulo, SP, Brazil",
+        "slack_id": "C07P3GZ34JE",
+        "latitude": -23.5557714,
+        "longitude": -46.6395571
+    }
+]
