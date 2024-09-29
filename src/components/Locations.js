@@ -33,8 +33,10 @@ export default function Locations() {
         </div>
       </div>
 
-      <div className="flex justify-center text-center text-2xl space-y-2 my-20 border-4 border-dashed border-pink py-6 px-6 neuebit tracking-wider text-4xl">
-        <Map />
+      <div className="flex justify-center text-center text-2xl space-y-2 my-20">
+        <div className="border-4 border-dashed border-pink py-6 px-6 neuebit tracking-wider text-4xl max-w-5xl w-full">
+          <Map />
+        </div>
       </div>
 
       <div className="flex justify-center text-center text-2xl space-y-2 my-20">
