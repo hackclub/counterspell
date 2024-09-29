@@ -25,6 +25,9 @@ def process_cities(events_file):
 
     results = []
     for event in events:
+        if ('latitude' in event) and ('longitude' in event):
+            results.append(event)
+            continue
         name = event['name']
         lat, lng = get_coordinates(name)
         event['latitude'] = lat
