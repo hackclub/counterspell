@@ -1,12 +1,9 @@
-import { useState, useEffect } from 'react'
-import { Box, Card, Embed } from 'theme-ui'
+import { useState } from 'react'
 import {
   MapContainer,
   TileLayer,
   Marker,
-  Popup,
-  Tooltip,
-  useMapEvents
+  Popup
 } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
@@ -33,8 +30,8 @@ export default function Map() {
   )
 
   const bounds = [
-    [-85, -Infinity], // Southwest coordinates
-    [85, Infinity]    // Northeast coordinates
+    [-85, -Infinity],
+    [85, Infinity]
   ];
 
   return (
