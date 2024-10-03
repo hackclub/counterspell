@@ -120,11 +120,11 @@ export default function Faq() {
   useEffect(() => {
     setScreenWidth(window.innerWidth);
     const randArray = Array.from({ length: numFaq }, (_, i) => i + 1).sort(
-      () => Math.random() - 0.5
+      () => Math.random() - 0.5,
     );
     setRandomFaqBkgrs(randArray);
     const correct = faqIds.toSorted(
-      (a, b) => randArray[a - 1] - randArray[b - 1]
+      (a, b) => randArray[a - 1] - randArray[b - 1],
     );
     setCorrectOrder(correct);
   }, []);
@@ -149,7 +149,7 @@ export default function Faq() {
     useSensor(PointerSensor),
     useSensor(KeyboardSensor, {
       coordinateGetter: sortableKeyboardCoordinates,
-    })
+    }),
   );
 
   return (
