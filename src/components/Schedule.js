@@ -9,7 +9,7 @@ export default function Schedule() {
         { time: "4:00 PM", event: "Gamedev workshop 2" },
         { time: "6:00 PM", event: "Dinner" },
         { time: "8:00 PM", event: "Lightning talks" },
-        { time: "12:00 AM", event: "Midnight Suprise" },
+        { time: "12:00 AM", event: "Midnight surprise" },
         { time: "8:00 AM", event: "Breakfast" },
         { time: "10:30 AM", event: "Game demos!" },
         { time: "12:00 PM", event: "Closing ceremony" },

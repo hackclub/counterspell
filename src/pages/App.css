@@ -2,42 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@font-face {
+/* @font-face {
 	font-family: 'Wonderworld';
-	src: url('../public/wonderworld.otf') format('opentype');
+	src: url('../../public/wonderworld.otf') format('opentype');
 	font-weight: 400; 
 	font-style: normal;
 	font-display: swap;
-}
+} */
 
 @font-face {
-	font-family: 'Neuebit';
-	src: url('../public/neuebit.woff') format('woff'),
-       url('../public/neuebit.woff2') format('woff2');
-	font-weight: 400; 
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-  font-family: 'Minecraft';
-  src: url('../public/Minecraft.ttf') format('truetype');
+  font-family: "Neuebit";
+  src: url("../../public/neuebit.woff") format("woff"),
+    url("../../public/neuebit.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
+/* @font-face {
+  font-family: 'Minecraft';
+  src: url('../../public/Minecraft.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+} */
+
 @font-face {
-	font-family: 'retro';
-	src: url('../public/retro.woff') format('opentype');
-	font-weight: 400; 
-	font-style: normal;
-	font-display: swap;
+  font-family: "retro";
+  src: url("../../public/retro.woff") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
 
 .serif {
   font-family: "Source Serif 4", serif;
@@ -46,7 +44,7 @@
   font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alatsi&display=swap");
 
 .alatsi-regular {
   font-family: "Alatsi", sans-serif;
@@ -54,7 +52,7 @@
   font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 .inter {
   font-family: "Inter", sans-serif;
@@ -63,24 +61,24 @@
   font-style: normal;
 }
 
-
 body {
   scroll-behavior: smooth;
-  background: #202F53;
-  font-family: 'Alatsi', sans-serif;
+  background: #202f53;
+  font-family: "Alatsi", sans-serif;
   color: white;
 }
 
 li {
-    margin-left: 10px;
-    list-style-type: circle;
- }
+  margin-left: 10px;
+  list-style-type: circle;
+}
 
 a:link {
   text-decoration: underline;
 }
 
-img, canvas {
+img,
+canvas {
   /* We have a lot of pixel art, so let's default to this instead of some modern blurred renderer */
   image-rendering: pixelated;
 }
@@ -90,25 +88,26 @@ img, canvas {
 }
 
 .gradient-text {
-  background: linear-gradient(270deg, #FF4186, #5BE2FA);
+  background: linear-gradient(270deg, #ff4186, #5be2fa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .neuebit {
-  font-family: 'Neuebit', sans-serif;
+  font-family: "Neuebit", sans-serif;
 }
 
 .retro {
-  font-family: 'retro', sans-serif;
+  font-family: "retro", sans-serif;
 }
 
 a:hover {
-  color: #5BE2FA;
+  color: #5be2fa;
 }
 
 @keyframes bobbing {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
@@ -125,7 +124,7 @@ a:hover {
 }
 
 ::selection {
-  background: #FF4186;
+  background: #5be2fa;
 }
 
 #background {
@@ -137,7 +136,7 @@ a:hover {
 }
 
 #background::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background: radial-gradient(ellipse, mediumturquoise, darkslateblue);
@@ -151,8 +150,8 @@ a:hover {
 }
 
 #background::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, .6);
+  background: rgba(0, 0, 0, 0.6);
 }
