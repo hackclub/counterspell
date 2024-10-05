@@ -14,6 +14,7 @@ import Ottawa from "./pages/Ottawa";
 import Atlanta from "./pages/Atlanta";
 import Singapore from "./pages/Singapore";
 import Melbourne from "./pages/Melbourne";
+import Boston from "./pages/Boston";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -32,6 +33,7 @@ root.render(
         <Route path="/atlanta" element={<Atlanta />} />
         <Route path="/singapore" element={<Singapore />} />
         <Route path="/melbourne" element={<Melbourne />} />
+        <Route path="/boston" element={<Boston />} />
 
         <Route path="*" element={<NotFound />} />
       </Routes>
