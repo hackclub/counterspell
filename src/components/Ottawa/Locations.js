@@ -8,7 +8,7 @@ export default function Locations() {
   const cities = [
     "Boston, MA",
     "New York City, NY",
-    "Ottawa, ON",
+    "Atlanta, GA",
     "Basking Ridge, NJ",
     "Austin, TX",
     "San Francisco, CA",
@@ -19,10 +19,10 @@ export default function Locations() {
   const [submitBtn, setSubmitBtn] = useState("Sign up");
 
   return (
-    <div className="neuebit py-24 px-6 bg-darker text-center retro relative">
+    <div className="neuebit py-24 px-6 bg-darker text-center retro relativeh">
       <p className="text-3xl uppercase">
         {/* TODO: Replace `Example City` with your city */}
-        Can't make it to Example City?
+        Can't make it to Ottawa?
       </p>
       <p className="text-xl">
         There are 200+ other Counterspell locations worldwide!
@@ -35,14 +35,11 @@ export default function Locations() {
         </div>
       </div>
 
-      <div className="flex justify-center text-center text-2xl space-y-2 my-20">
-        <div className="border-4 border-dashed border-pink py-6 px-6 neuebit tracking-wider text-4xl">
+      <div className="flex justify-center text-center text-2xl space-y-2 mt-20">
+        <div className="border-4 border-dashed border-pink py-6 px-6 xl:px-12 neuebit tracking-wider text-4xl ">
+          {/* TODO: Replace `Example City` with your city */}
+          <p>Counterspell Ottawa is organized by teenagers, for teenagers.</p>
           <p>
-            {/* TODO: Replace `Example City` with your city */}
-            Counterspell Example City is organized by teenagers, for teenagers.
-          </p>
-          <p>
-            Organize a Counterspell event in your city.{" "}
             <a
               href="https://hack.club/counterspell-signup"
               target="_blank"
@@ -50,46 +47,13 @@ export default function Locations() {
               className="text-pink"
             >
               Sign up
-            </a>
-            .
+            </a>{" "}
+            to organize a Counterspell event in your city.
           </p>
         </div>
       </div>
 
-      <div className="flex items-center flex-col space-y-3 uppercase">
-        <p className="text-center text-xl">
-          Get notified when registrations open
-        </p>
-        <form
-          method="post"
-          action="https://app.loops.so/api/newsletter-form/clo3frr4v02f3jv0qqu6hgfqs"
-          className="retro text-2xl sm:text-3xl flex flex-col lg:flex-row space-y-4 lg:space-y-0"
-          onSubmit={handleSubmit}
-        >
-          <input
-            type="email"
-            name="email"
-            className="outline-none border-4 lg:border-r-0 border-pink bg-transparent border-dashed px-4 h-16 sm:h-20 lg:w-[500px] w-full"
-            placeholder="fiona@hackclub.com"
-            required
-          />
-          <input type="hidden" name="userGroup" value="Hack Clubber" />
-          <input
-            type="hidden"
-            name="mailingLists"
-            value="cm1fqxdc900qn0ll9fd5m3wdv"
-          />
-          <button
-            type="submit"
-            className="uppercase bg-pink h-16 sm:h-20 px-4 border-4 border-pink"
-            id="formSubmit"
-          >
-            {submitBtn}
-          </button>
-        </form>
-      </div>
-
-      <img
+      {/* <img
         src={flare1}
         alt=""
         className="w-48 absolute top-0 right-0 -z-10"
@@ -103,7 +67,7 @@ export default function Locations() {
         src={flare3}
         alt=""
         className="w-48 absolute bottom-8 right-0 -z-10"
-      ></img>
+      ></img> */}
     </div>
   );
 

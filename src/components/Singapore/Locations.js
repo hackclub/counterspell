@@ -21,8 +21,7 @@ export default function Locations() {
   return (
     <div className="neuebit py-24 px-6 bg-darker text-center retro relative">
       <p className="text-3xl uppercase">
-        {/* TODO: Replace `Example City` with your city */}
-        Can't make it to Example City?
+        Can't make it to Singapore?
       </p>
       <p className="text-xl">
         There are 200+ other Counterspell locations worldwide!
@@ -38,11 +37,11 @@ export default function Locations() {
       <div className="flex justify-center text-center text-2xl space-y-2 my-20">
         <div className="border-4 border-dashed border-pink py-6 px-6 neuebit tracking-wider text-4xl">
           <p>
-            {/* TODO: Replace `Example City` with your city */}
-            Counterspell Example City is organized by teenagers, for teenagers.
+            Counterspell Singapore is organized by teenagers, for teenagers.
           </p>
           <p>
-            Organize a Counterspell event in your city.{" "}
+            Organize an
+            Counterspell event in your city.{" "}
             <a
               href="https://hack.club/counterspell-signup"
               target="_blank"

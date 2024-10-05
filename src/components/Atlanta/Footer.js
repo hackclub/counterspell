@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="pt-4 p-6 bg-pink text-2xl neuebit">
+    <div className="mt-4 p-6 bg-pink text-2xl neuebit">
       <div className="text-center">
         <p>Built with love by teenagers, for teenagers at Hack Club</p>
       </div>
@@ -15,7 +15,7 @@ export default function Footer() {
         </a>{" "}
         |{" "}
         <a
-          href="https://hackclub.com/slack/"
+          href="https://hackclub.com/slack?event=counterspell-atl"
           target="_blank"
           rel="noopener noreferrer"
           className="mx-4"
@@ -24,16 +24,7 @@ export default function Footer() {
         </a>{" "}
         |{" "}
         <a
-          href="https://www.youtube.com/@HackClubHQ"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mx-4"
-        >
-          YouTube
-        </a>{" "}
-        |{" "}
-        <a
-          href="https://www.instagram.com/starthackclub/"
+          href="https://www.instagram.com/counterspellatl"
           target="_blank"
           rel="noopener noreferrer"
           className="mx-4"

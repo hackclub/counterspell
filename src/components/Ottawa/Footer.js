@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="pt-4 p-6 bg-pink text-2xl neuebit">
+    <div className="mt-4 p-6 bg-pink text-2xl neuebit">
       <div className="text-center">
         <p>Built with love by teenagers, for teenagers at Hack Club</p>
       </div>

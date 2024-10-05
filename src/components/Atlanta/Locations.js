@@ -16,50 +16,17 @@ export default function Locations() {
     "Oshkosh, WI",
   ];
 
-  const [submitBtn, setSubmitBtn] = useState("Sign up");
+  const [submitBtn, setSubmitBtn] = useState("Continue");
 
   return (
+
+
     <div className="neuebit py-24 px-6 bg-darker text-center retro relative">
-      <p className="text-3xl uppercase">
-        {/* TODO: Replace `Example City` with your city */}
-        Can't make it to Example City?
-      </p>
-      <p className="text-xl">
-        There are 200+ other Counterspell locations worldwide!
-      </p>
-      <div class="flex justify-center pt-24">
-        <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center text-2xl max-w-5xl w-full gap-8">
-          {cities.map((city) => (
-            <p className="lg:odd:text-left lg:even:text-right">{city}</p>
-          ))}
-        </div>
-      </div>
-
-      <div className="flex justify-center text-center text-2xl space-y-2 my-20">
-        <div className="border-4 border-dashed border-pink py-6 px-6 neuebit tracking-wider text-4xl">
-          <p>
-            {/* TODO: Replace `Example City` with your city */}
-            Counterspell Example City is organized by teenagers, for teenagers.
-          </p>
-          <p>
-            Organize a Counterspell event in your city.{" "}
-            <a
-              href="https://hack.club/counterspell-signup"
-              target="_blank"
-              rel="noreferrer"
-              className="text-pink"
-            >
-              Sign up
-            </a>
-            .
-          </p>
-        </div>
-      </div>
-
       <div className="flex items-center flex-col space-y-3 uppercase">
-        <p className="text-center text-xl">
+        <p className="text-center text-3xl">
           Get notified when registrations open
         </p>
+        <small className="text-center text-large">Note: you'll be redirected <a href="https://counterspellatl24.fillout.com/t/bYwEGuu6Pdus">here</a> to finish the form.</small>
         <form
           method="post"
           action="https://app.loops.so/api/newsletter-form/clo3frr4v02f3jv0qqu6hgfqs"
@@ -88,6 +55,42 @@ export default function Locations() {
           </button>
         </form>
       </div>
+      <br></br><br></br><br></br>
+      <p className="text-xl uppercase">
+        {/* TODO: Replace `Example City` with your city */}
+        Can't make it to Atlanta?
+      </p>
+      <p className="text-xl">
+        There are 200+ other Counterspell locations worldwide!
+      </p>
+      <div class="flex justify-center pt-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center text-2xl max-w-5xl w-full gap-8">
+          {cities.map((city) => (
+            <p className="lg:odd:text-left lg:even:text-right">{city}</p>
+          ))}
+        </div>
+      </div>
+
+      <div className="flex justify-center text-center text-2xl space-y-2 my-20">
+        <div className="border-4 border-dashed border-pink py-6 px-6 neuebit tracking-wider text-4xl">
+          <p>
+            Counterspell Atlanta is organized by teenagers, for teenagers.
+          </p>
+          <p>
+            {/* TODO: Replace `Example City` with your city */} Organize an
+            Counterspell event in your city.{" "}
+            <a
+              href="https://hack.club/counterspell-signup"
+              target="_blank"
+              rel="noreferrer"
+              className="text-pink"
+            >
+              Sign up
+            </a>
+            .
+          </p>
+        </div>
+      </div>
 
       <img
         src={flare1}
@@ -110,21 +113,8 @@ export default function Locations() {
   function handleSubmit(e) {
     e.preventDefault();
     const form = e.target;
-
-    fetch(form.action, {
-      method: "POST",
-      body: new URLSearchParams(new FormData(form)),
-    })
-      .then((response) => {
-        if (response.ok) {
-          form.reset();
-          setSubmitBtn("Success");
-        } else {
-          setSubmitBtn("Error");
-        }
-      })
-      .catch((error) => {
-        setSubmitBtn("Error");
-      });
+    const formData = new FormData(form);
+    const email = formData.get('email');
+    window.location.href = `https://counterspellatl24.fillout.com/t/bYwEGuu6Pdus?ref=${encodeURIComponent("Website")}&email=${encodeURIComponent(email)}`;
   }
 }
