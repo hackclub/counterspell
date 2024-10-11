@@ -17,8 +17,7 @@ export default function Locations() {
   return (
     <div className="relative px-6 py-24 text-center neuebit bg-darker retro">
       <p className="text-3xl uppercase">
-        {/* TODO: Replace `Example City` with your city */}
-        Can't make it to Example City?
+        Can't make it to Manila?
       </p>
       <p className="text-xl">
         There are 200+ other Counterspell locations worldwide!
@@ -36,8 +35,7 @@ export default function Locations() {
       <div className="flex justify-center my-20 space-y-2 text-2xl text-center">
         <div className="px-6 py-6 text-4xl tracking-wider border-4 border-dashed border-pink neuebit">
           <p>
-            {/* TODO: Replace `Example City` with your city */}
-            Counterspell Example City is organized by teenagers, for teenagers.
+            Counterspell Manila is organized by teenagers, for teenagers.
           </p>
           <p>
             Organize a Counterspell event in your city.{" "}
@@ -58,8 +56,7 @@ export default function Locations() {
         <p className="text-xl text-center">
           Get notified when registrations open
         </p>
-        {/* TODO: Replace `Example City` with your city */}
-        <Subscribe eventName="Example City" />
+        <Subscribe eventName="Manila" />
       </div>
     </div>
   );
