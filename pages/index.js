@@ -2,17 +2,17 @@ import React, { useEffect, useRef, useState } from "react";
 import useSound from "use-sound";
 import Head from "next/head";
 
-// TODO: Change `ExampleCity` to the name of your city. This should match the folder you copied!
-import Hero from "../components/ExampleCity/Hero";
-import About from "../components/ExampleCity/About";
-import Guilds from "../components/ExampleCity/Guilds";
-import Steps from "../components/ExampleCity/Steps";
-import Locations from "../components/ExampleCity/Locations";
-import Faq from "../components/ExampleCity/Faq";
-import Footer from "../components/ExampleCity/Footer";
+// TODO: Change `Manila` to the name of your city. This should match the folder you copied!
+import Hero from "../components/Manila/Hero";
+import About from "../components/Manila/About";
+import Guilds from "../components/Manila/Guilds";
+import Steps from "../components/Manila/Steps";
+import Locations from "../components/Manila/Locations";
+import Faq from "../components/Manila/Faq";
+import Footer from "../components/Manila/Footer";
 
-// TODO: Change `ExampleCity` to the name of your city
-export default function ExampleCity() {
+// TODO: Change `Manila` to the name of your city
+export default function Manila() {
   const [docHeight, setDocHeight] = useState(0);
   const [scrollPos, setScrollPos] = useState(0);
   const [isMuted, setIsMuted] = useState(true);
