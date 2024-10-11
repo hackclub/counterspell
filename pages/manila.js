@@ -1,28 +1,3 @@
-"======== READ ME BEFORE EDITING ========";
-/*
-Hello! this is the template for the city pages.
-
-To create a new page, make a copy of this file in the same directory (pages) and rename it for your city.
-Make a copy of the example components (components/ExampleCity) and rename it for your city.
-E.g. Ottawa, ON -> Ottawa.js and components/Ottawa.
-
-Replace all placeholder info, indicated by "TODO" comments, in this file and the components with the appropriate content!
-You do not need to use this template exactly, feel free to customize it as much as you see fit.
-
-Once you're done, make a copy of this file, rename it to your event, and edit it!
-E.g. Basking Ridge, NJ -> basking-ridge.js
-
-If you want to include additional assets, please add them under public/city/your-city-name.
-
-Make a PR and we'll review it as soon as we can!
-
-If you have any questions, send a message to the #counterspell channel on the Hack Club Slack and we'll try to help.
-
-P.S. Feel free to delete this comment block when you're done! 
-
-Note: To test your changes locally, use `yarn install` and `yarn dev`.
-*/
-
 import React, { useEffect, useRef, useState } from "react";
 import useSound from "use-sound";
 import Head from "next/head";
@@ -71,8 +46,8 @@ export default function ExampleCity() {
   return (
     <>
       <Head>
-        {/* TODO: Change `Example City` to the name of your city */}
-        <title>Counterspell Example City</title>
+        {/* TODO: Change `Manila` to the name of your city */}
+        <title>Counterspell Manila</title>
       </Head>
       <div>
         <div
