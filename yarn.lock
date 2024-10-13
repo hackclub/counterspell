@@ -1099,7 +1099,7 @@ core-util-is@1.0.2:
     "@hackclub/banner" "^1.0.3"
     "@tsparticles/confetti" "^3.5.0"
     airtable-plus "^1.0.4"
-    counterspell "file:../../../AppData/Local/Yarn/Cache/v6/npm-counterspell-0.1.0-0f5df1d6-ec00-4d62-8657-0941807be1ca-1728960406830/node_modules/counterspell"
+    counterspell "file:../../.cache/yarn/v6/npm-counterspell-0.1.0-177c7126-ad35-4080-ae33-2f68c1f2fede-1728829461757/node_modules/counterspell"
     leaflet "^1.9.4"
     next "^14.2.15"
     react "^18"
