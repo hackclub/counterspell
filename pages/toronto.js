@@ -10,7 +10,7 @@ import Locations from "../components/Toronto/Locations";
 import Email from "../components/Toronto/Email";
 import Faq from "../components/Toronto/Faq";
 import Footer from "../components/Toronto/Footer";
-
+import SecEmail from "../components/Toronto/secEmail";
 
 export default function Toronto() {
   const [docHeight, setDocHeight] = useState(0);
@@ -113,7 +113,26 @@ export default function Toronto() {
 
           <Locations />
 
-          <div className="flex flex-col justify-center py-12 text-center faq fusion-pixel">
+          <div className="bg-[#2A385A] flex flex-col justify-evenly items-center h-[700px]">
+            <div>
+              <div className="uppercase text-3xl Sponser text-white font-semibold text-center retro mb-3">
+                Help Us Bring the Magic By Being A Sponser
+              </div>
+              <div className="text-2xl Sponser text-white font-semibold text-center fusion-pixel mb-8">
+                If you are interested in becoming a sponser, please contact us
+                at counterspellgta@gmail.com
+              </div>
+
+              <SecEmail />
+            </div>
+            <img
+              src="/city/toronto/sponsers/terraCotta.png"
+              alt="Terra Cotta Cookies"
+              className="-[500px] h-[260px] p-6 flex-shrink-0 rounded-[14px] bg-[#1A2F57] hover:bg-[#0D3059] transition-shadow duration-1000 hover:shadow-[20px_20px_4px_0px_rgba(0,255,255,0.88)]"
+            />
+          </div>
+
+          <div className="bg-[#00001E] flex flex-col justify-center py-12 text-center faq fusion-pixel">
             <div className="m-6">
               <p className="mb-6 text-5xl uppercase">
                 Frequently Asked Questions
