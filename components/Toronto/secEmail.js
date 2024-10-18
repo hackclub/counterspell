@@ -1,6 +1,5 @@
 import { useState } from "react";
-
-export default function Email() {
+export default function SecEmail() {
   const [copied, setCopied] = useState(false);
   const email = "counterspellgta@gmail.com";
 
@@ -23,15 +22,11 @@ export default function Email() {
   };
 
   return (
-    <div className="relative px-6 py-24 text-center neuebit bg retro">
-      <p className="text-3xl uppercase">
-        For any inquiries reach out to our gmail!
-      </p>
-      <p className="text-xl">Just copy and Paste</p>
+    <div className="relative px-6 text-center neuebit bg retro">
       <button
         onClick={handleCopy}
         className={`
-            inline-block px-12 py-3 my-12 text-2xl uppercase
+            inline-block px-12 py-3 text-2xl uppercase
             ${copied ? "bg-cyan-400 text-pink-600" : "bg-pink-600 text-cyan-300"}
             hover:text-white motion-safe:hover:scale-105 motion-safe:transition-all
             rounded-xl border-2 border-cyan-300
