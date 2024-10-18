@@ -25,10 +25,9 @@ export default function Schedule() {
     { time: "4:15 AM",  event: "Workshop #3", length: "~30-45m" },
     { time: "5:15 AM",  event: "Workshop #4", length: "~30-45m" },
     { time: "6:15 PM",  event: "Dinner opens" },
-    { time: "7:30 PM",  event: "Quick round", length: "~15m" },
-    { time: "7:45 PM",  event: "Game work ends" },
-    { time: "7:45 PM",  event: "Submit projects", length: "~15m" },
-    { time: "8:00 PM",  event: "Judging", length: "~30m" },
+    { time: "8:00 PM",  event: "Quick round", length: "~15m" },
+    { time: "8:15 PM",  event: "Game work ends" },
+    { time: "8:15 PM",  event: "Submit projects", length: "~15m" },
     { time: "8:30 PM",  event: "Closing ceremony", length: "~15-30m" },
     { time: "9:30 PM",  event: "Everyone out" },
   ];
