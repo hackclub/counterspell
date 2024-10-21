@@ -49,6 +49,15 @@ export default function Guilds() {
           </p>
         </div>
       </div>
+      <a
+        className="z-30 w-full max-w-6xl px-6 py-6 mt-6 text-2xl uppercase bg-pink hover:text-white motion-safe:hover:scale-105 motion-safe:transition-all"
+        href="https://counterspell.fillout.com/hongkong?uid=guilds"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ textDecorationLine: "none" }}
+      >
+        立即報名加入參加Counterspell！
+      </a>
     </div>
   );
 }

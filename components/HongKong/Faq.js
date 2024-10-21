@@ -32,7 +32,7 @@ const faqData = [
     question: "我有資格報名嗎？",
     answer: `如果您未滿 18 歲，當然可以，我們非常期待您的參與！
     如果您已年滿 18 歲但仍在就讀高中，請發送電子郵件至
-     <a href="mailto:counterspell@hackclub.com">counterspell@hackclub.com</a> 與我們聯繫。`,
+     <a href="mailto:hongkong@counterspell.hackclub.com">hongkong@counterspell.hackclub.com</a> 與我們聯繫。`,
   },
   {
     question: "參加需要付費嗎？",
@@ -59,13 +59,13 @@ const faqData = [
   {
     question: "我的父母很擔心！",
     answer: `我們隨時準備提供協助！請他們通過
-     <a href="mailto:counterspell@hackclub.com">counterspell@hackclub.com</a> 與我們聯繫，
+     <a href="mailto:hongkong@counterspell.hackclub.com">hongkong@counterspell.hackclub.com</a> 與我們聯繫，
      我們會確保解答他們的所有問題！`,
   },
   {
     question: "我如何提出更多問題？",
     answer: `聯繫我們！請在 Hack Club Slack 上的 <a href="https://hackclub.com/slack/">#counterspell</a> 
-    或通過電子郵件 <a href="mailto:counterspell@hackclub.com">counterspell@hackclub.com</a> 與我們聯繫。
+    或通過電子郵件 <a href="mailto:hongkong@counterspell.hackclub.com">hongkong@counterspell.hackclub.com</a> 與我們聯繫。
     我們隨時準備回答您的所有問題！`,
   },
 ];

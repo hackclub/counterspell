@@ -25,6 +25,15 @@ export default function Footer() {
         </a>{" "}
         |{" "}
         <a
+          href="https://www.facebook.com/profile.php?id=61567287088876"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mx-4"
+        >
+          Facebook
+        </a>{" "}
+        |{" "}
+        <a
           href="https://www.instagram.com/CounterspellHongKong/"
           target="_blank"
           rel="noopener noreferrer"
