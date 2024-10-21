@@ -56,13 +56,12 @@ const faqData = [
   },
   {
     question: "¿Qué necesito llevar para el evento?",
-    answer: `Your laptop, charger, and an open mind! If your location is overnight, also bring toiletries, and a sleeping bag.`,
     answer: `Un portátil, cargador y ¡ganas de crear cosas! an open mind! Si tu evento es nocturno, no olvides llevar artículo de higiene personal y un saco de dormir.`,
   },
   {
     question: "Mis padres están preocupados por algo o no entienden algo",
     answer: `Estamos aquí para ayudar,
-    diles que escriban a <a href="mailto:counterspell@nosesisaid.com">counterspell@nosesisaid.com</a>(español) o <a href="mailto:counterspell@hackclub.com">counterspell@hackclub.com</a> (inglés)
+    diles que escriban a <a href="mailto:katherinekoo.pe@gmail.com">katherinekoo.pe@gmail.com</a>(español) o <a href="mailto:counterspell@hackclub.com">counterspell@hackclub.com</a> (inglés)
     y nos aseguraremos de responder todas sus preguntas.`,
   },
   {
@@ -71,7 +70,7 @@ const faqData = [
           <a href="https://hackclub.com/slack/">#counterspell</a>
           en el Slack de Hack Club o escríbenos un correo a 
           <a href="mailto:counterspell@hackclub.com">counterspell@hackclub.com</a>(inglés) o 
-          <a href="mailto:counterspell@nosesisaid.com">counterspell@nosesisaid.com</a>(español).
+          <a href="mailto:katherinekoo.pe@gmail.com">katherinekoo.pe@gmail.com</a>(español).
           Estamos listos para responder todas vuestras preguntas.`,
   },
 ];

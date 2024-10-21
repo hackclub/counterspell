@@ -18,7 +18,7 @@ export default function Locations() {
     <div className="relative px-6 py-24 text-center neuebit bg-darker retro">
       <p className="text-3xl uppercase">
         {/* TODO: Replace `Example City` with your city */}
-        Can't make it to Lima?
+        ¿No puedes llegar a Lima?
       </p>
       <p className="text-xl">
       ¡Hay muchas más ciudades organizando counterspell a lo largo del mundo!
