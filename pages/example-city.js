@@ -28,16 +28,16 @@ import useSound from "use-sound";
 import Head from "next/head";
 
 // TODO: Change `ExampleCity` to the name of your city. This should match the folder you copied!
-import Hero from "../components/ExampleCity/Hero";
-import About from "../components/ExampleCity/About";
-import Guilds from "../components/ExampleCity/Guilds";
-import Steps from "../components/ExampleCity/Steps";
-import Locations from "../components/ExampleCity/Locations";
-import Faq from "../components/ExampleCity/Faq";
-import Footer from "../components/ExampleCity/Footer";
+import Hero from "../components/Chennai/Hero";
+import About from "../components/Chennai/About";
+import Guilds from "../components/Chennai/Guilds";
+import Steps from "../components/Chennai/Steps";
+import Locations from "../components/Chennai/Locations";
+import Faq from "../components/Chennai/Faq";
+import Footer from "../components/Chennai/Footer";
 
 // TODO: Change `ExampleCity` to the name of your city
-export default function ExampleCity() {
+export default function Chennai() {
   const [docHeight, setDocHeight] = useState(0);
   const [scrollPos, setScrollPos] = useState(0);
   const [isMuted, setIsMuted] = useState(true);
@@ -72,7 +72,7 @@ export default function ExampleCity() {
     <>
       <Head>
         {/* TODO: Change `Example City` to the name of your city */}
-        <title>Counterspell Example City</title>
+        <title>Counterspell Chennai</title>
       </Head>
       <div>
         <div
