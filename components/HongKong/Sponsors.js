@@ -65,7 +65,7 @@ export default function Sponsors() {
             class="motion-safe:hover:scale-105 motion-safe:transition-all flex"
           >
             <img
-              src="/city/HongKong/gdhh.png"
+              src="/city/HongKong/GDHH.png"
               alt="Game Dev Happy Hour"
               class="w-auto h-12 md:h-28"
             />
