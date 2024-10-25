@@ -1,4 +1,8 @@
+import { useScrollContext } from "./ScrollContext";
+
 export default function About() {
+  const registerSectionRef = useScrollContext();
+
   return (
     <div className="flex justify-center neuebit text-3xl py-24">
       <div className="space-y-12 max-w-8xl">
@@ -26,6 +30,12 @@ export default function About() {
               help you with your project.<br />
               Even if you aren't a programmer, you could be an artist or musician and come to this event! Teams will, of course, be allowed
             </p>
+            <button
+              className="h-16 px-4 uppercase border-4 bg-pink border-pink text-white font-pixel tracking-widest"
+              onClick={handleButtonClick}
+            >
+              Sign Up!
+            </button>
           </div>
           <div
             className="h-64 bg-center bg-cover border-4 border-dashed border-pink bg-clip-padding xl:h-auto"
@@ -39,4 +49,13 @@ export default function About() {
       </div>
     </div>
   );
+
+  function handleButtonClick() {
+    const registerSection = document.getElementById("register-section");
+    
+    if (registerSection) {
+      registerSection.scrollIntoView({ behavior: "smooth", block: "center" });
+      console.log('test')
+    }
+  }
 }

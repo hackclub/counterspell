@@ -9,6 +9,7 @@ import Steps from "../components/Minneapolis/Steps";
 import Locations from "../components/Minneapolis/Locations";
 import Faq from "../components/Minneapolis/Faq";
 import Footer from "../components/Minneapolis/Footer";
+import { ScrollProvider } from "../components/Minneapolis/ScrollContext";
 
 export default function Minneapolis() {
   const [docHeight, setDocHeight] = useState(0);
@@ -103,11 +104,12 @@ export default function Minneapolis() {
         <div className="relative">
           <div className="absolute top-0 left-0 right-0 pointer-events-none -bottom-4 grainy-bg"></div>
           <div className="absolute top-0 left-0 right-0 -bottom-4 -z-10 bg-dark"></div>
-
-          <About />
-          <Guilds />
-          <Steps />
-          <Locations />
+          <ScrollProvider>
+            <About />
+            <Guilds />
+            <Steps />
+            <Locations />
+          </ScrollProvider>
 
           <div className="flex flex-col justify-center py-12 text-center faq retro">
             <div className="m-6">

@@ -14,7 +14,7 @@ export default function Subscribe(props) {
         type="email"
         name="email"
         className="outline-none border-4 lg:border-r-0 border-pink bg-transparent border-dashed px-4 h-16 sm:h-20 lg:w-[500px] w-full"
-        placeholder="fiona@hackclub.com"
+        placeholder="fiona@gmail.com"
         required
       />
       {!!props.eventName && (

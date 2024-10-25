@@ -4,9 +4,11 @@ import Banner from "@hackclub/banner";
 export default function Hero() {
   return (
     <>
+      {/* Banner on the top left */}
       <div className="absolute top-0 left-0 w-[20%] md:w-40 2xl:w-64">
         <Banner style={{ width: "100%" }} />
       </div>
+
       <div className="min-h-screen">
         <div
           className="relative flex flex-col justify-center text-center bg-top bg-no-repeat bg-cover pointer-events-none select-none -z-10 overflow-x-clip"
@@ -63,6 +65,11 @@ function HeroScroll() {
             src="/city/minneapolis/title.png"
             alt="Counterspell"
             className="absolute h-auto top-[18%] lg:top-[22%] w-[70%] lg:scale-[130%] right-[15%]"
+          />
+          <img
+            src="/smoke.gif"
+            alt="Smoke"
+            className="absolute h-auto top-0 lg:top-[5%] w-full lg:scale-[130%] translate-x-[1%] hue-rot"
           />
 
           <div className="hidden absolute top-[90%] lg:top-[145%] left-[9%] w-[80%] lg:scale-[130%] bg-[#090808] h-screen" />

@@ -1,6 +1,9 @@
 import Subscribe from "./Subscribe";
+import { useScrollContext } from "./ScrollContext";
 
 export default function Locations() {
+  const registerSectionRef = useScrollContext();
+
   // Do not update this list! We'll update it for you.
   const cities = [
     "Boston, MA",
@@ -37,24 +40,15 @@ export default function Locations() {
           <p>
             Counterspell Minneapolis is organized by teenagers, for teenagers.
           </p>
-          <p>
-            Organize a Counterspell event in your city.{" "}
-            <a
-              href="https://hack.club/counterspell-signup"
-              target="_blank"
-              rel="noreferrer"
-              className="text-pink"
-            >
-              Sign up
-            </a>
-            .
-          </p>
         </div>
       </div>
 
-      <div className="flex flex-col items-center space-y-3 uppercase">
-        <p className="text-xl text-center">
-          Get notified when registrations open
+      <div 
+        className="flex flex-col items-center space-y-3 uppercase"
+        ref={registerSectionRef}
+      >
+        <p className="text-xl text-center" id="register-section">
+          Register for Counterspell Minneapolis
         </p>
         <small className="text-center text-large">
           Note: you'll be redirected to finish the form.
