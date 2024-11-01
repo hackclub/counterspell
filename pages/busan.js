@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Head from "next/head";
 
-export default function ExampleCity() {
+export default function Busan() {
   useEffect(() => {
     window.location.href = "https://counterspellbusan.com";
   }, []);
