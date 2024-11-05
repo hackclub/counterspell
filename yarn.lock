@@ -94,6 +94,11 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.57.1.tgz#de633db3ec2ef6a3c89e2f19038063e8a122e2c2"
   integrity sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==
 
+"@fontsource/bebas-neue@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/bebas-neue/-/bebas-neue-5.1.0.tgz#37051a4e26a2338165ec68374d83a4edd991ab28"
+  integrity sha512-Z/JzzEEun97ZY7zzD5GhjZIE9bemHaLenzo5RlFtPVb8gNB9/DM7S+c7El5OcBcPc0crzeyGTVxkUboQQLM4vQ==
+
 "@hackclub/banner@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@hackclub/banner/-/banner-1.0.3.tgz#19dea70803ade0228e7445895fb7f30befa4151a"
@@ -119,6 +124,11 @@
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-2.0.3.tgz#4a2868d75d6d6963e423bcf90b7fd1be343409d3"
   integrity sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==
+
+"@infolektuell/noto-color-emoji@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@infolektuell/noto-color-emoji/-/noto-color-emoji-0.2.0.tgz#d1c92f91234e1ab66a4bfd370805673aa3783196"
+  integrity sha512-B6kpvqeD0ukTR7sydGKpktvO3VhZkOwQxAdLLGPdSHxQxREa2+sH6B9ODop6quPGjhmsZkJ/hL01rQ8At5xDew==
 
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
@@ -163,6 +173,15 @@
   dependencies:
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
+
+"@mcpe_pc/counterspell-seoul@https://gitpkg.vercel.app/MCPE-PC/counterspell-seoul/web?4c963d6acaf9463d6725c0fc236c3e16e41042b2":
+  version "0.0.1"
+  resolved "https://gitpkg.vercel.app/MCPE-PC/counterspell-seoul/web?4c963d6acaf9463d6725c0fc236c3e16e41042b2#17770aa7ee8d4206e01ac7e235121e04abaaeef8"
+  dependencies:
+    "@fontsource/bebas-neue" "^5.1.0"
+    "@infolektuell/noto-color-emoji" "^0.2.0"
+    material-icons "^1.13.12"
+    pretendard "^1.3.9"
 
 "@next/env@14.2.15":
   version "14.2.15"
@@ -1097,9 +1116,10 @@ core-util-is@1.0.2:
     "@dnd-kit/core" "^6.1.0"
     "@dnd-kit/sortable" "^8.0.0"
     "@hackclub/banner" "^1.0.3"
+    "@mcpe_pc/counterspell-seoul" "https://gitpkg.vercel.app/MCPE-PC/counterspell-seoul/web?4c963d6acaf9463d6725c0fc236c3e16e41042b2"
     "@tsparticles/confetti" "^3.5.0"
     airtable-plus "^1.0.4"
-    counterspell "file:../../../AppData/Local/Yarn/Cache/v6/npm-counterspell-0.1.0-0f5df1d6-ec00-4d62-8657-0941807be1ca-1728960406830/node_modules/counterspell"
+    counterspell "file:../../Library/Caches/Yarn/v6/npm-counterspell-0.1.0-0c942de5-a6f9-48d1-8c3f-993aa0dd71ef-1730828630716/node_modules/counterspell"
     leaflet "^1.9.4"
     next "^14.2.15"
     react "^18"
@@ -2426,6 +2446,11 @@ map-obj@^3.0.0:
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-3.1.0.tgz#3be9810d926db2f8612c728a2e95e03b7f109241"
   integrity sha512-Xg1iyYz/+iIW6YoMldux47H/e5QZyDSB41Kb0ev+YYHh3FJnyyzY0vTk/WbVeWcCvdXd70cOriUBmhP8alUFBA==
 
+material-icons@^1.13.12:
+  version "1.13.12"
+  resolved "https://registry.yarnpkg.com/material-icons/-/material-icons-1.13.12.tgz#eed4082bf0426642edeb027e75397e3064adc536"
+  integrity sha512-/2YoaB79IjUK2B2JB+vIXXYGtBfHb/XG66LvoKVM5ykHW7yfrV5SP6d7KLX6iijY6/G9GqwgtPQ/sbhFnOURVA==
+
 merge2@^1.3.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
@@ -2793,6 +2818,11 @@ prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
+
+pretendard@^1.3.9:
+  version "1.3.9"
+  resolved "https://registry.yarnpkg.com/pretendard/-/pretendard-1.3.9.tgz#b1f86d5a7a729f518974098fcf85f34fff3526b7"
+  integrity sha512-PaQAADyLY5v4kYFwkpSJHbSSYIkiriY/1xXw75TKoZ9UQQqeU+tvP05yTdZAWibiIYoo8ZKtRv8PM7w0IaywSw==
 
 process@~0.5.1:
   version "0.5.2"
