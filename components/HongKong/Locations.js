@@ -35,7 +35,7 @@ export default function Locations() {
       <div className="flex justify-center my-20 space-y-2 text-2xl text-center">
         <div className="px-6 py-6 text-4xl tracking-wider border-4 border-dashed border-pink neuebit">
           <p>
-            {/* TODO: Replace `Example City` with your city */}
+            {/* TODO: Replace `Dubai` with your city */}
             Counterspell Hong Kong is organized by teenagers, for teenagers.
           </p>
           <p>

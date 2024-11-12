@@ -71,7 +71,7 @@ export default function Casablanca() {
   return (
     <>
       <Head>
-        {/* TODO: Change `Example City` to the name of your city */}
+        {/* TODO: Change `Dubai` to the name of your city */}
         <title>Counterspell Casablanca</title>
       </Head>
       <div>

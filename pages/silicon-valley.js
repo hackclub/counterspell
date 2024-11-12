@@ -73,7 +73,7 @@ export default function SiliconValley() {
   return (
     <>
       <Head>
-        {/* TODO: Change `Example City` to the name of your city */}
+        {/* TODO: Change `Dubai` to the name of your city */}
         <title>Counterspell Silicon Valley</title>
       </Head>
       <div>

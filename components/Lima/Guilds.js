@@ -43,7 +43,7 @@ export default function Guilds() {
       <div className="flex justify-center leading-[3rem] tracking-wider mx-6">
         <div className="max-w-6xl px-6 py-6 mt-6 border-4 border-dashed border-pink">
           <p className="text-3xl neuebit">
-            {/* TODO: Change `Example City` to the name of your city */}
+            {/* TODO: Change `Dubai` to the name of your city */}
             ¡Puedes unirte al grupo con el que te identifiques para swags(botines) y pins exclusivos! También podrás 
             competir contra otros grupos en diversas actividades/retos a lo largo de Counterspell Lima.
           </p>

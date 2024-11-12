@@ -2,7 +2,7 @@ export default function Sponsors() {
   return (
     <div className="relative px-6 py-24 text-center neuebit bg retro">
       <p className="text-3xl uppercase">
-        {/* TODO: Replace `Example City` with your city */}
+        {/* TODO: Replace `Dubai` with your city */}
         Sponsor a Magical Weekend
       </p>
       <p className="text-xl">

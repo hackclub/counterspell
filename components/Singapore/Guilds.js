@@ -44,7 +44,7 @@ export default function Guilds() {
       <div className="flex justify-center leading-[3rem] tracking-wider mx-6">
         <div className="max-w-6xl px-6 py-6 mt-6 border-4 border-dashed border-pink">
           <p className="text-3xl neuebit">
-            {/* TODO: Change `Example City` to the name of your city */}
+            {/* TODO: Change `Dubai` to the name of your city */}
             You can join the guild you identify with for exclusive swag and
             badges! You also get to compete against other guilds in friendly
             activities/challenges throughout Counterspell Singapore!

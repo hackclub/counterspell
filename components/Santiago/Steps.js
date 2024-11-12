@@ -12,7 +12,7 @@ export default function Steps() {
             <div className="flex flex-wrap items-center justify-center gap-6 p-8 border-4 border-dashed border-pink inter">
               <StepCard
                 img="/photos/3.png"
-                // TODO: Change `Example City` to the name of your city
+                // TODO: Change `Dubai` to the name of your city
                 text="Sign up for Counterspell Santiago"
               />
               <StepCard

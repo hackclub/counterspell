@@ -71,8 +71,8 @@ export default function ExampleCity() {
   return (
     <>
       <Head>
-        {/* TODO: Change `Example City` to the name of your city */}
-        <title>Counterspell Example City</title>
+        {/* TODO: Change `Dubai` to the name of your city */}
+        <title>Counterspell Dubai</title>
       </Head>
       <div>
         <div

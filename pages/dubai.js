@@ -28,16 +28,16 @@ import useSound from "use-sound";
 import Head from "next/head";
 
 // TODO: Change `ExampleCity` to the name of your city. This should match the folder you copied!
-import Hero from "../components/Charlotte/Hero";
-import About from "../components/Charlotte/About";
-import Guilds from "../components/Charlotte/Guilds";
-import Steps from "../components/Charlotte/Steps";
-import Locations from "../components/Charlotte/Locations";
-import Faq from "../components/Charlotte/Faq";
-import Footer from "../components/Charlotte/Footer";
+import Hero from "../components/Dubai/Hero";
+import About from "../components/Dubai/About";
+import Guilds from "../components/Dubai/Guilds";
+import Steps from "../components/Dubai/Steps";
+import Locations from "../components/Dubai/Locations";
+import Faq from "../components/Dubai/Faq";
+import Footer from "../components/Dubai/Footer";
 
 // TODO: Change `ExampleCity` to the name of your city
-export default function Charlotte() {
+export default function Dubai() {
   const [docHeight, setDocHeight] = useState(0);
   const [scrollPos, setScrollPos] = useState(0);
   const [isMuted, setIsMuted] = useState(true);
@@ -72,7 +72,7 @@ export default function Charlotte() {
     <>
       <Head>
         {/* TODO: Change `Dubai` to the name of your city */}
-        <title>Counterspell Charlotte</title>
+        <title>Counterspell Dubai</title>
       </Head>
       <div>
         <div

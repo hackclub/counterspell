@@ -8,7 +8,7 @@ export default function About() {
         <div className="grid grid-cols-1 xl:grid-cols-2 grid-rows-2 gap-12 leading-[3rem] tracking-wider mx-6 2xl:mx-0">
           <div className="row-span-2 p-8 space-y-12 border-4 border-dashed border-pink md:p-12">
             <p>
-              {/* TODO: Change `Example City` to the name of your city */}
+              {/* TODO: Change `Dubai` to the name of your city */}
               Counterspell Lima es una game jam para adolescentes en la que{" "}
               <span className="text-pink">
                 artistas, músicos y programadores
@@ -17,7 +17,7 @@ export default function About() {
             </p>
             <p className="text-2xl uppercase retro">¡Crea lo que sea!</p>
             <p>
-              {/* TODO: Change `Example City` to the name of your city */}
+              {/* TODO: Change `Dubai` to the name of your city */}
               ¡Cualquier juego cuenta! El tema de Counterspell Lima será decidido
               por votación popular antes de que el evento comience.{" "}
             </p>

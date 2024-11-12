@@ -59,7 +59,7 @@ export default function Locations() {
       <br></br>
       <br></br>
       <p className="text-xl uppercase">
-        {/* TODO: Replace `Example City` with your city */}
+        {/* TODO: Replace `Dubai` with your city */}
         Can't make it to Atlanta?
       </p>
       <p className="text-xl">
@@ -79,7 +79,7 @@ export default function Locations() {
         <div className="px-6 py-6 text-4xl tracking-wider border-4 border-dashed border-pink neuebit">
           <p>Counterspell Atlanta is organized by teenagers, for teenagers.</p>
           <p>
-            {/* TODO: Replace `Example City` with your city */} Organize an
+            {/* TODO: Replace `Dubai` with your city */} Organize an
             Counterspell event in your city.{" "}
             <a
               href="https://hack.club/counterspell-signup"

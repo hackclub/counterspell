@@ -67,7 +67,7 @@ export default function Atlanta() {
   return (
     <>
       <Head>
-        {/* TODO: Change `Example City` to the name of your city */}
+        {/* TODO: Change `Dubai` to the name of your city */}
         <title>Counterspell Atlanta</title>
       </Head>
       <div>

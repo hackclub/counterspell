@@ -71,7 +71,7 @@ export default function Bergen() {
   return (
     <>
       <Head>
-        {/* TODO: Change `Example City` to the name of your city --> DONE */} 
+        {/* TODO: Change `Dubai` to the name of your city --> DONE */} 
         <title>Counterspell Bergen County, NJ</title>
       </Head>
       <div>
