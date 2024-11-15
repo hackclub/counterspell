@@ -1,4 +1,4 @@
-import Subscribe from "../Subscribe";
+/* import Subscribe from "../Subscribe";
 import dynamic from "next/dynamic";
 
 const Map = dynamic(() => import("./Map"), { ssr:false });
@@ -14,7 +14,9 @@ export default function Locations() {
             rel="noopener noreferrer"
             className="hover:text-blue-300"
           >
-            Shopify, 620 King St W, Toronto, ON
+            Shopify Toronto
+            620 King St W
+            Toronto, ON M5V 1M6
           </a>!
 
       <div className="flex justify-center text-center text-2xl space-y-2 my-20">
@@ -22,24 +24,7 @@ export default function Locations() {
           <Map full={false} />
         </div>
       </div>
-
-      <div className="flex justify-center my-20 space-y-2 text-2xl text-center">
-        <div className="px-6 py-6 text-4xl tracking-wider border-4 border-dashed border-pink neuebit">
-          <p>Counterspell is organized by teenagers, for teenagers.</p>
-          <p>
-            Want to join? Click the link! {" "}
-            <a
-              href="https://forms.hackclub.com/t/sdMpoL7wK9us"
-              target="_blank"
-              rel="noreferrer"
-              className="text-pink"
-            >
-              Sign up here
-            </a>
-            !
-          </p>
-        </div>
-      </div>
     </div>
   );
 }
+ */

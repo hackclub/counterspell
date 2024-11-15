@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <div className="p-6 pt-4 text-2xl bg-pink neuebit">
       <div className="text-center">
-        <p>Built with love by teenagers, for teenagers at Hack Club</p>
+        <p>Built with ♥ by teenagers, for teenagers at Hack Club</p>
       </div>
       <div className="flex items-center justify-center ">
         <a

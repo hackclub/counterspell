@@ -6,7 +6,7 @@ import Hero from "../components/Toronto/Hero";
 import About from "../components/Toronto/About";
 import Guilds from "../components/Toronto/Guilds";
 import Steps from "../components/Toronto/Steps";
-import Locations from "../components/Toronto/Locations";
+// import Locations from "../components/Toronto/Locations";
 import Faq from "../components/Toronto/Faq";
 import Sponsor from "../components/Toronto/Sponsor"
 import Footer from "../components/Toronto/Footer";
@@ -101,7 +101,7 @@ export default function Toronto() {
         </audio>
         <a
           href="https://forms.hackclub.com/t/sdMpoL7wK9us"
-          className="text-white fixed top-4 right-4 retro bg-pink py-2 px-3 lg:py-3 lg:px-4 z-50 hover:scale-105 hover:text-white no-underline md:text-[1.5rem] lg:text-[1.7rem]"
+          className="text-white fixed top-4 right-4 retro bg-pink py-1 px-2 lg:py-2 lg:px-3 z-50 hover:scale-105 hover:text-white no-underline md:text-[1.2rem] lg:text-[1.4rem]"
           style={{ textDecoration:'none' }}
         >
           Sign Up
@@ -115,19 +115,27 @@ export default function Toronto() {
           <About/>
           <Guilds/>
           <Steps/>
-          <Locations/>
-          <Sponsor/>
 
-          <div className="bg-[#00001E] flex flex-col justify-center py-12 text-center faq fusion-pixel">
+          <div className="bg-[#00001E] flex flex-col justify-center py-12 text-center faq retro">
             <div className="m-6">
-              <p className="mb-6 text-5xl uppercase">
+              <p className="mb-6 text-3xl uppercase">
                 Frequently Asked Questions
-              </p>
-              <div className="flex justify-center">
-                <Faq/>
-              </div>
+                </p>
+                <div className="flex justify-center">
+                  <Faq/>
+                </div>
+                 <p className="text-2xl leading-[1.5rem] neuebit mt-4 mb-4">
+                  If you have further questions, please reach out to{" "}  
+                  <a 
+                  href="mailto:toronto@counterspell.hackclub.com" 
+                  className="no-underline text-2xl leading-[1.5rem] neuebit"
+                  >
+                    toronto@counterspell.hackclub.com
+                    </a>
+                  </p>
             </div>
-          </div>
+            </div>
+          <Sponsor/>
         </div>
         <Footer/>
 

@@ -1,5 +1,4 @@
 export default function Schedule() {
-  // TODO: Edit this to match your event schedule
   const schedule = [
     { time: "10:00 AM", event: "Doors open" },
     { time: "12:00 PM", event: "Opening ceremony" },
