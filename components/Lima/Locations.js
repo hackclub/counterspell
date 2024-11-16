@@ -1,65 +1,42 @@
 import Subscribe from "../Subscribe";
-
+import dynamic from "next/dynamic";
+const Map = dynamic(() => import("./Map"), { ssr:false });
 export default function Locations() {
-  // Do not update this list! We'll update it for you.
-  const cities = [
-    "Boston, MA",
-    "New York City, NY",
-    "Ottawa, ON",
-    "Basking Ridge, NJ",
-    "Austin, TX",
-    "San Francisco, CA",
-    "Burlington, VT",
-    "Oshkosh, WI",
-  ];
-  // Do not update this list! We'll update it for you.
-
   return (
-    <div className="relative px-6 py-24 text-center neuebit bg-darker retro">
-      <p className="text-3xl uppercase">
-        {/* TODO: Replace `Example City` with your city */}
-        ¿No puedes llegar a Lima?
-      </p>
-      <p className="text-xl">
-      ¡Hay muchas más ciudades organizando counterspell a lo largo del mundo!
-      </p>
-      <div className="flex justify-center pt-24">
-        <div className="grid items-center justify-center w-full max-w-5xl grid-cols-1 gap-8 text-2xl lg:grid-cols-2">
-          {cities.map((city, i) => (
-            <p className="lg:odd:text-left lg:even:text-right" key={i}>
-              {city}
-            </p>
-          ))}
+
+      <div className="relative px-6 py-24 text-center font-semibold md:text-4xl text-3xl neuebit bg-darker retro">
+          Acompáñanos en{' '} 
+          <a 
+            href="https://www.google.com/maps/dir/?api=1&destination=UTEC,+Jir%C3%B3n+Medrano+Silva,+Barranco"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-300"
+          >
+            UTEC - Universidad de Ingeniería y Tecnología.
+            Jirón Medrano Silva 165, Barranco 15063
+          </a>!
+
+      <div className="flex justify-center text-center text-2xl space-y-2 my-20">
+        <div className="border-4 border-dashed border-pink py-6 px-6 neuebit tracking-wider text-4xl max-w-5xl w-full">
+          <Map full={false} />
         </div>
       </div>
-
       <div className="flex justify-center my-20 space-y-2 text-2xl text-center">
         <div className="px-6 py-6 text-4xl tracking-wider border-4 border-dashed border-pink neuebit">
+          <p>Counterspell is organized by teenagers, for teenagers.</p>
           <p>
-            {/* TODO: Replace `Example City` with your city */}
-            Counterspell Lima es organizado por adolescentes, para adolescentes.
-          </p>
-          <p>
-            Organiza un Counterspell en tu ciudad{" "}
+            ¿Quieres participar? Dale click al link {" "}
             <a
-              href="https://hack.club/counterspell-signup"
+              href="https://forms.hackclub.com/t/t6AQoC7b2Lus"
               target="_blank"
               rel="noreferrer"
               className="text-pink"
             >
-              Regístrate
+              Regístrate aquí
             </a>
-            .
+            !
           </p>
         </div>
-      </div>
-
-      <div className="flex flex-col items-center space-y-3 uppercase">
-        <p className="text-xl text-center">
-        Recibe una notificación cuando se abran los registros
-        </p>
-        {/* TODO: Replace `Example City` with your city */}
-        <Subscribe eventName="Lima" />
       </div>
     </div>
   );

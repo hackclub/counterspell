@@ -79,7 +79,7 @@ function HeroScroll() {
               </p>
               <p className="text-pink retro text-[80%] sm:text-[90%] lg:text-[90%] mt-2">
                 {/* TODO: Replace `EXAMPLE CITY` with your city */}
-                NOVIEMBRE 24, 2024 • LIMA
+                NOVIEMBRE 23, 2024 • UTEC - LIMA
               </p>
             </div>
           </div>

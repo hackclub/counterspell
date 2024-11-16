@@ -130,7 +130,7 @@ export default function Lima() {
           className="text-white fixed top-4 right-4 retro bg-pink py-2 px-3 lg:py-3 lg:px-4 uppercase z-50 hover:scale-105 hover:text-white no-underline md:text-[1.5rem] lg:text-[1.7rem]"
           style={{ textDecoration:"none" }}>
         
-          Sign Up!
+          Regístrate!
           </a>
         <Hero/>
 

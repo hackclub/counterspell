@@ -23,7 +23,7 @@ export default function About() {
             </p>
             <p>
               {/* TODO: Change `24 hours` to match your event duration */}
-              Da igual que seas principiante o programador experimentado, tendremos guías y recursos para ayudarte a crear tu proyecto durante todo el evento.
+              Da igual que seas principiante o programador experimentado, tendremos guías y mentores para ayudarte a crear tu proyecto durante todo el evento.
             </p>
           </div>
           <div
