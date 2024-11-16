@@ -23,7 +23,7 @@ export default function Locations() {
       </div>
       <div className="flex justify-center my-20 space-y-2 text-2xl text-center">
         <div className="px-6 py-6 text-4xl tracking-wider border-4 border-dashed border-pink neuebit">
-          <p>Counterspell is organized by teenagers, for teenagers.</p>
+          <p>Counterspell es organizado por adolescentes, para adolescentes.</p>
           <p>
             ¿Quieres participar? Dale click al link {" "}
             <a
