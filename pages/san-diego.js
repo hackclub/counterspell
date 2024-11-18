@@ -28,13 +28,13 @@ import useSound from "use-sound";
 import Head from "next/head";
 
 // TODO: Change `ExampleCity` to the name of your city. This should match the folder you copied!
-import Hero from "../components/ExampleCity/Hero";
-import About from "../components/ExampleCity/About";
-import Guilds from "../components/ExampleCity/Guilds";
-import Steps from "../components/ExampleCity/Steps";
-import Locations from "../components/ExampleCity/Locations";
-import Faq from "../components/ExampleCity/Faq";
-import Footer from "../components/ExampleCity/Footer";
+import Hero from "../components/SanDiego/Hero";
+import About from "../components/SanDiego/About";
+import Guilds from "../components/SanDiego/Guilds";
+import Steps from "../components/SanDiego/Steps";
+import Locations from "../components/SanDiego/Locations";
+import Faq from "../components/SanDiego/Faq";
+import Footer from "../components/SanDiego/Footer";
 
 // TODO: Change `ExampleCity` to the name of your city
 export default function ExampleCity() {
@@ -72,7 +72,7 @@ export default function ExampleCity() {
     <>
       <Head>
         {/* TODO: Change `Example City` to the name of your city */}
-        <title>Counterspell Example City</title>
+        <title>Counterspell San Diego</title>
       </Head>
       <div>
         <div
