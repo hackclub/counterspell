@@ -11,19 +11,7 @@ export default function Schedule() {
     { time: "4:30 PM", event: "Lightning talks" },
     { time: "6:30 PM", event: "Game demos!" },
     { time: "7:00 PM", event: "Dinner" },
-    { time: "8:00 PM", event: "Closing ceremony" },
-    { time: "8:00 AM", event: "Doors open" },
-    { time: "9:00 AM", event: "Opening ceremony" },
-    { time: "9:30 AM", event: "Breakfast" },
-    { time: "10:00 AM", event: "Start working on your game!" },
-    { time: "11:00 AM", event: "Gamedev workshop 1" },
-    { time: "1:00 PM", event: "Gamedev workshop 2" },
-    { time: "1:00 PM", event: "Activity 1" },
-    { time: "3:00 PM", event: "Lunch" },
-    { time: "5:30 PM", event: "Lightning talks" },
-    { time: "7:30 PM", event: "Game demos!" },
-    { time: "8:00 PM", event: "Dinner" },
-    { time: "9:00 PM", event: "Closing ceremony" },
+    { time: "8:00 PM", event: "Closing ceremony" }
   ];
 
   return (
